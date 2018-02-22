@@ -11,7 +11,7 @@ namespace Exercise_6A
         //Method to handle StartEngine noise from mainMenu 
         public string StartEngine(string spinningUpEngine)
         {
-            Console.WriteLine($"Starting engine: {spinningUpEngine}");
+            Console.WriteLine($"{spinningUpEngine}");
             return spinningUpEngine;
         }
 

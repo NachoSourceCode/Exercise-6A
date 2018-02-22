@@ -45,7 +45,7 @@ namespace Exercise_6A
             Console.WriteLine("Choose a vehicle and wait for the sound of freedom:");
             Console.WriteLine(" 1) Aircraft");
             Console.WriteLine(" 2) Ship");
-            Console.WriteLine(" 2) Exit");
+            Console.WriteLine(" 3) Exit");
         }
 
         // Handles main navigation
@@ -78,10 +78,10 @@ namespace Exercise_6A
 
                         case 2:
 
-                            Console.WriteLine("\nFlight crew boarding Aircraft.");
+                            Console.WriteLine("\nCrew boarding ship.");
                             Ship Warship = new Ship();
-                            Vehicle2 = Ship.ShipType("USS Ronald Reagan");
-                            Noise2 = Ship.StartEngine("frackkkkkkaaakakak");
+                            Vehicle2 = Warship.ShipType("USS Ronald Reagan");
+                            Noise2 = Warship.StartEngine("frackkkkkkaaakakak");
 
                             break;
 
